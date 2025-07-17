@@ -1,19 +1,19 @@
-## 🚀 API de Isekai - Compu paralela
+## API de Isekai - Compu paralela
 
 API REST para gestión de datos demográficos en un mundo fantástico, implementando paralelismo con FastAPI y PostgreSQL.
 
-## 📌 Características principales
+## Características principales
 - **Endpoints CRUD** para especies, estratos sociales y géneros.
 - **Estadísticas paralelizadas** con `ProcessPoolExecutor`.
 - **Documentación automática** (Swagger UI y ReDoc).
 - **Conexión asíncrona** a PostgreSQL con `asyncpg`.
 
-## 🔧 Requisitos
+## Requisitos
 - Python 3.8+
 - PostgreSQL 16+
 - Pip
 
-## 🛠️ Instalación
+## Instalación
 ``` 
 # Clonar repositorio
 git clone https://github.com/tu-usuario/isekai-api.git
