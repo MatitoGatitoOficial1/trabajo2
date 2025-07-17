@@ -15,9 +15,7 @@ API REST para gestión de datos demográficos en un mundo fantástico, implement
 
 ## Instalación
 ``` 
-# Clonar repositorio
-git clone https://github.com/MatitoGatitoOficial1/isekai-api.git
-cd isekai-api
+# Descargar repositorio
 
 # Crear entorno virtual (Linux)
 python3 -m venv venv
