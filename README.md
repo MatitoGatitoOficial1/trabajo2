@@ -32,10 +32,10 @@ uvicorn app.main:app --reload
 gunicorn -w 4 -k uvicorn.workers.UvicornWorker app.main:app
 
 ´´´
-Endpoints principales
+# Endpoints principales
 Endpoint	Descripción	Método
 /strata	Lista de estratos sociales	GET
 /species	Lista de especies	GET
 /stats/filter	Estadísticas filtradas	GET
-/cpu/heavy	Tareas CPU paralelizadas (oculto)	GET
+/cpu/heavy	Tareas CPU paralelizadas	GET
 
